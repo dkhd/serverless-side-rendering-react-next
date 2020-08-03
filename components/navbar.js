@@ -5,13 +5,13 @@ export default () => (
   <nav className='nav'>
     <ul>
       <li>
-        <Link href='/'>Home</Link>
+        <Link href='/production'>Home</Link>
       </li>
       <li>
-        <Link href='/dogs'>Dogs</Link>
+        <Link href='/production/dogs'>Dogs</Link>
       </li>
       <li>
-        <Link href='/dogs/shepherd'>Only Shepherds</Link>
+        <Link href='/production/dogs/shepherd'>Only Shepherds</Link>
       </li>
     </ul>
   </nav>
